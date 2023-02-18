@@ -34,6 +34,7 @@ set hls
 syntax on
 nnoremap x "_x
 nnoremap c "_c
+colorscheme onedark
 autocmd BufEnter * silent! set autoindent smartindent
 if exists('g:vscode')
   finish
